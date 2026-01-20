@@ -1,5 +1,4 @@
-print("Hello, world!!")
-a=3
-b=5
-diff="a-b"
-print("Difference of a and b",diff)
+num1 = 50
+num2 = 270
+sum_of_nums = num1 + num2
+print(f"The sum of 2 numbers is: {sum_of_nums}")
