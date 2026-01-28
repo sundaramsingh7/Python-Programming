@@ -36,3 +36,47 @@ message = "Hello"
 message += ", World!" # Concatenation also works
 print(message)
 # Output: Hello, World!
+
+# 3.Comparison Operators
+#Comparison operators are used to compare two values:
+
+x = 5
+y = 3
+
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+
+
+#Chaining Comparison Operators
+#Python allows you to chain comparison operators:
+x = 5
+
+print(1 < x < 10)
+
+print(1 < x and x < 10)
+
+# 4.Logical Operators
+#Logical operators are used to combine conditional statements: AND, OR, NOT
+# AND
+x = 5
+
+print(x > 0 and x < 10)
+
+#OR
+x = 5
+
+print(x < 5 or x > 10)
+
+#NOT
+x = 5
+
+print(not(x > 3 and x < 10))
+
+
+
+
+
