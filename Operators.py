@@ -77,6 +77,38 @@ x = 5
 print(not(x > 3 and x < 10))
 
 
+# 5.Identity Operators
+#Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+# 1. is
+#The is operator returns True if both variables point to the same object
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)
+print(x is y)
+print(x == y)
+
+# 2, is not
+#The is not operator returns True if both variables do not point to the same object:
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+
+print(x is not y)
 
 
+# 6.Membership Operators
+#Membership operators are used to test if a sequence is presented in an object:
+# 1. In
+# Check if "banana" is present in a list:
+fruits = ["apple", "banana", "cherry"]
 
+print("banana" in fruits)
+
+# 2. Not in
+#Check if "pineapple" is NOT present in a list:
+
+fruits = ["apple", "banana", "cherry"]
+
+print("pineapple" not in fruits)
