@@ -112,3 +112,6 @@ print("banana" in fruits)
 fruits = ["apple", "banana", "cherry"]
 
 print("pineapple" not in fruits)
+
+# 7.Bitwise Operators
+#Bitwise operators are used to compare (binary) numbers:
