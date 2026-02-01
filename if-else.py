@@ -61,3 +61,23 @@ elif day == 6:
   print("Saturday")
 elif day == 7:
   print("Sunday")
+
+  #Python Else Statement: The else statement is executed when the if condition (and any elif conditions) evaluate to False.
+#Example 1
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#Example 2 :Checking even or odd numbers:
+
+number = 7
+
+if number % 2 == 0:
+  print("The number is even")
+else:
+  print("The number is odd")
