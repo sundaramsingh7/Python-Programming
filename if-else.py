@@ -75,7 +75,7 @@ else:
 
 #Example 2 :Checking even or odd numbers:
 
-number = 7
+number = 8
 
 if number % 2 == 0:
   print("The number is even")
