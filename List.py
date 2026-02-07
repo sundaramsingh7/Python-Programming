@@ -23,7 +23,7 @@ list3 = [True, False, False]
 
 
 # Example : What is the data type of a list?
-mylist = ["apple", "banana", "cherry"]
+mylist = ["apple", "banana", "cherry","Oranges"]
 print(type(mylist))
 
 
