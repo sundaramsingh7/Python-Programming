@@ -11,7 +11,7 @@ print(z)
 
 # Unpack a collection
 # 1.(list)
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "watermelon", "cherry"]
 x, y, z = fruits
 print(x)
 print(y)
