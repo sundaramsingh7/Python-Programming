@@ -36,4 +36,9 @@ print(operator.add(10, 5))
 
 print(sum([10, 5]))
 
+# min()
+a = 7
+b = 3
+print(min(a, b))
+
 
