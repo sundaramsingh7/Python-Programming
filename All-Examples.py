@@ -1,3 +1,4 @@
+                     # **** Additionn of two numbers ****
 # Add two integer
 a = 15
 b = 12
@@ -35,7 +36,7 @@ print(operator.add(10, 5))
 #Using sum() : sum() function is commonly used to add multiple numbers in an iterable like lists or tuples. It provides a simple way to add elements without using loops or explicit operators.
 
 print(sum([10, 5]))
-
+                      # **** Min and Max of two numbers ***** 
 # min()
 a = 7
 b = 3
@@ -72,4 +73,39 @@ else:
     print(b)
 
 
+#Using sort() :In this approach, the two numbers are stored in a list, which is then sorted to find the maximum.
+a = 7
+b = 3
 
+num = [a, b]
+num.sort()
+print(num[-1])
+
+
+                             # **** Factorial of two numbers ****
+#Using math.factorial() 
+import math
+n = 6
+print(math.factorial(n))
+
+#Using an Iterative For Loop : This method calculates factorial by manually multiplying the numbers from 1 to n inside a for loop.
+
+n = 6
+f = 1
+
+for i in range(1, n+1):
+    f *= i
+
+print(f)
+
+# Using a Recursive Function :This approach follows the mathematical definition of factorial by repeatedly calling the function with decreasing values until reaching the base case.
+
+def fact(n):
+    return 1 if n <= 1 else n * fact(n-1)
+
+print(fact(6))
+
+
+
+
+ 
