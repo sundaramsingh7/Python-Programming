@@ -41,4 +41,35 @@ a = 7
 b = 3
 print(min(a, b))
 
+#Using Conditional Statements : like if and else
+a = 5
+b = 10
+
+if a < b:
+    print(a)
+else:
+    print(b)
+
+
+#Using Ternary Operator
+a = 7
+b = 2
+res = a if a < b else b
+print(res)
+
+# Max()
+a = 7
+b = 3
+print(max(a, b))
+
+#Using if-Else statement :it is highly readable and a great choice for beginners learning control structures. 
+a = 7
+b = 3
+
+if a > b:
+    print(a)
+else:
+    print(b)
+
+
 
