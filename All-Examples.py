@@ -93,17 +93,17 @@ print(math.factorial(n))
 n = 6
 f = 1
 
-for i in range(1, n+1):
+for i in range(1, n+2):
     f *= i
 
 print(f)
 
 # Using a Recursive Function :This approach follows the mathematical definition of factorial by repeatedly calling the function with decreasing values until reaching the base case.
 
-def fact(n):
-    return 1 if n <= 1 else n * fact(n-1)
+def fact(m):
+    return 1 if n <= 1 else n * fact(m-1)
 
-print(fact(6))
+print(fact(7))
 
 
 
