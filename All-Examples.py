@@ -183,3 +183,46 @@ for value in d.values():
 # Iterate over key-value pairs
 for key, value in d.items():
     print(f"{key}: {value}")
+
+
+#List Comprehension in Python - It helps you write clean, readable and efficient code compared to traditional loops.
+#Example : Suppose you want to square every number in a list:
+
+a = [2,3,4,5]
+res = [val ** 2 for val in a]
+print(res)
+
+# For Loop vs. List Comprehension - A for loop takes multiple lines to build a new list by iterating and appending each item manually. List comprehension does same in just one line, making code shorter and easier to read.
+
+#Using For loop
+a = [1, 2, 3, 4, 5]
+res = []
+for val in a:
+    res.append(val * 2)
+print(res)
+
+# Using List comprehension
+a = [1, 2, 3, 4, 5]
+res = [val * 2 for val in a]
+print(res)
+
+#Conditional Statements in List Comprehension - List comprehensions can use conditions to select or transform items based on specific rules.
+a = [1, 2, 3, 4, 5]
+res = [val for val in a if val % 2 == 0]
+print(res)
+
+# ** some More example of list Comprehension **
+
+# 1. Creating a list from a range
+a = [i for i in range(10)]
+print(a)
+
+# 2. Using nested loops
+c = [(x, y) for x in range(3) for y in range(3)]
+print(c)
+
+# 3. Flattening a list of lists
+mat = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+res = [val for row in mat for val in row]
+print(res)
+
