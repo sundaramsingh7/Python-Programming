@@ -226,3 +226,33 @@ mat = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 res = [val for row in mat for val in row]
 print(res)
 
+
+# *** Numpy Array ***
+import numpy as np
+a = np.array([1, 2, 3, 4])
+
+# Element-wise operations
+print(a * 2)  
+
+# Multi-dimensional array
+import numpy as np
+a = np.array([1, 2, 3, 4])
+
+# Element-wise operations
+print(a * 2)  
+
+# Multi-dimensional array
+res = np.array([[1, 2], [3, 4]])
+print(res * 2)
+
+# Python Arrays
+import array as arr
+a = arr.array('i', [1, 2, 3])
+
+# accessing First Araay
+print(a[0])
+
+# adding element to array
+a.append(5)
+print(a)
+
