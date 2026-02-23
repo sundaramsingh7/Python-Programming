@@ -279,3 +279,55 @@ a = array.array('i', [1, 2, 3, 4, 5])
 a.reverse()
 print(*a)
 
+
+# **** Python Sets *****
+
+#Python set is an unordered collection of multiple items having different datatypes. In Python, sets are mutable, unindexed and do not contain duplicates.
+
+# 1 Creating a Set in Python
+set1 = {1, 2, 3, 4}
+print(set1)
+
+
+# Using the set() function
+set1 = set()
+print(set1)
+
+set1 = set("GeeksForGeeks")
+print(set1)
+
+# Creating a Set with the use of a List
+set1 = set(["Geeks", "For", "Geeks"])
+print(set1)
+
+# Creating a Set with the use of a tuple
+tup = ("Geeks", "for", "Geeks")
+print(set(tup))
+
+# Creating a Set with the use of a dictionary
+d = {"Geeks": 1, "for": 2, "Geeks": 3}
+print(set(d))
+
+
+# Adding Elements to a Set in Python
+# Creating a set
+set1 = {1, 2, 3}
+
+# Add one item
+set1.add(4)
+
+# Add multiple items
+set1.update([5, 6])
+
+print(set1)
+
+# Accessing a Set in Python
+set1 = set(["Geeks", "For", "Geeks."])
+
+# Accessing element using For loop
+for i in set1:
+    print(i, end=" ")
+
+# Checking the element# using in keyword
+print("Geeks" in set1)
+
