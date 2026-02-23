@@ -256,3 +256,26 @@ print(a[0])
 a.append(5)
 print(a)
 
+
+#Slicing of an Array 
+import array as arr
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = arr.array('i', a)
+
+res = a[3:8]
+print(res)
+
+res = a[5:]
+print(res)
+
+res = a[:]
+print(res)
+
+#Reversing Elements in an Array : In order to reverse elements of an array we need to simply use reverse method.
+
+import array
+a = array.array('i', [1, 2, 3, 4, 5])
+
+a.reverse()
+print(*a)
+
