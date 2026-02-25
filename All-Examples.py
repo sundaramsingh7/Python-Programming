@@ -463,4 +463,21 @@ print(b)
 print(c)
 
 
-# 
+# Slicing of Tuple : Slicing a tuple means creating a new tuple from a subset of elements of the original tuple.
+tup = tuple('GEEKSFORGEEKS')
+
+# Removing First element
+print(tup[1:])
+
+# Reversing the Tuple
+print(tup[::-1])
+
+# Printing elements of a Range
+print(tup[4:9])
+
+
+# Deleting a Tuple : Since tuples are immutable, we cannot delete individual elements of a tuple.
+tup = (0, 1, 2, 3, 4)
+del tup
+
+print(tup)
