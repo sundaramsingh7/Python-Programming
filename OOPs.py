@@ -25,3 +25,49 @@ print(dog1.name)
 print(dog1.species)
 
 
+#__str__() Method : __str__ method in Python allows us to define a custom string representation of an object
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old."
+dog1 = Dog("Buddy", 3)
+dog2 = Dog("Charlie", 5)
+
+print(dog1)  
+print(dog2)
+
+
+# Class Variables : These are variables that are shared across all instances of a class. It is defined at class level, outside any methods. All objects of class share same value for a class variable unless explicitly overridden in an object.
+
+# Instance Variables : Variables that are unique to each instance (object) of a class. These are defined within __init__() method or other instance methods. Each object maintains its own copy of instance variables, independent of other objects.
+
+class Dog:
+    # Class variable
+    species = "Canine"
+
+    def __init__(self, name, age):
+        # Instance variables
+        self.name = name
+        self.age = age
+
+# Create objects
+dog1 = Dog("Buddy", 3)
+dog2 = Dog("Charlie", 5)
+
+# Access class and instance variables
+print(dog1.species)  # (Class variable)
+print(dog1.name)     # (Instance variable)
+print(dog2.name)     # (Instance variable)
+
+# Modify instance variables
+dog1.name = "Max"
+print(dog1.name)     # (Updated instance variable)
+
+# Modify class variable
+Dog.species = "Feline"
+print(dog1.species)  # (Updated class variable)
+print(dog2.species)
+
