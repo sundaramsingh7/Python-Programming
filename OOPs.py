@@ -71,3 +71,17 @@ Dog.species = "Feline"
 print(dog1.species)  # (Updated class variable)
 print(dog2.species)
 
+
+# Conditional statments 
+# if condition
+age = 20
+if age >= 18:
+    print("Eligible to vote.")
+
+
+# if-else condition
+age = 10
+if age <= 12:
+    print("Travel for free.")
+else:
+    print("Pay for ticket.")
