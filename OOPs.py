@@ -85,3 +85,15 @@ if age <= 12:
     print("Travel for free.")
 else:
     print("Pay for ticket.")
+
+# if elif else statements: 
+
+num = input(int("enter a number:"))
+if num > 0:
+    print("number is poisitive:")
+
+elif num < 0:
+    print("numbers is negative:")
+
+else:
+    print("number is zero:")
