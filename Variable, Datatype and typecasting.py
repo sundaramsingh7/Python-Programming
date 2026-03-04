@@ -19,3 +19,16 @@ print("the boolean value:",is_student)
 # List variable 
 Marks = [10,20,30,40]
 print("the marks are:",Marks)
+
+
+# Data Types of the following:
+ 
+print("data types of integer:",type(age))
+
+print("data type of string:",type(student))
+
+print("data type of float:", type(Height))
+
+print("data type of boolean:",type(is_student))
+
+print("data type of list:",type(Marks))
