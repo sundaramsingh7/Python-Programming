@@ -32,3 +32,12 @@ print("data type of float:", type(Height))
 print("data type of boolean:",type(is_student))
 
 print("data type of list:",type(Marks))
+
+
+# Tuple
+t = (10,20,30,40,20) 
+print("original tuple:",t)
+
+# 1. Indexing
+print("")
+
