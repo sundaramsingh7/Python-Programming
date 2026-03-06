@@ -41,3 +41,12 @@ print("original tuple:",t)
 # 1. Indexing
 print("")
 
+# list 
+# A list of strings
+fruits = ["apple", "banana", "cherry"]
+# A list of integers
+numbers = [1, 5, 7, 9, 3]
+# A list with mixed data types
+mixed_list = ["abc", 34, True, 40, "male"]
+# An empty list
+empty_list = []
