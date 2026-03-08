@@ -50,3 +50,11 @@ numbers = [1, 5, 7, 9, 3]
 mixed_list = ["abc", 34, True, 40, "male"]
 # An empty list
 empty_list = []
+
+# Dictionary
+
+## Using curly braces
+user_profile = {'name': 'Alice', 'age': 25}
+
+# Using dict() constructor
+student_info = dict(name="Bob", age=21)
