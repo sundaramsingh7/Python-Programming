@@ -52,9 +52,20 @@ mixed_list = ["abc", 34, True, 40, "male"]
 empty_list = []
 
 # Dictionary
-
+# creating dictionary
 ## Using curly braces
 user_profile = {'name': 'Alice', 'age': 25}
 
 # Using dict() constructor
 student_info = dict(name="Bob", age=21)
+
+# Accessing values
+name = user_profile['name']
+age = user_profile.get('age')
+city = user_profile.get('city', 'Not Found') # Safely handles missing keys
+
+
+# Modifying and adding items
+user_profile['age'] = 26 # Modify
+user_profile['email'] = 'alice@example.com' # Add
+
