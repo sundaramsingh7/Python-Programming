@@ -69,3 +69,13 @@ city = user_profile.get('city', 'Not Found') # Safely handles missing keys
 user_profile['age'] = 26 # Modify
 user_profile['email'] = 'alice@example.com' # Add
 
+# Removing Items : Use del or .pop() to remove items, and .clear()
+del user_profile['city']
+removed_email = user_profile.pop('email')
+
+# Iterating Through a Dictionary : Loop through keys, values, or items using .keys(), .values(), or .items(). 
+for key, value in user_profile.items():
+    print(f"{key}: {value}")
+
+
+
