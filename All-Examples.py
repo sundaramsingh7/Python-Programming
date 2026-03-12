@@ -492,3 +492,13 @@ print(a)
 print(b) 
 print(c)
 
+#  WAP to check whether a number is even or odd by using Boolean function
+
+def is_even(num):
+    return num % 2 == 0
+number = int(input("enter a number:"))
+
+if is_even(number):
+    print("the number is even")
+else:
+    print("the number is odd")
