@@ -502,3 +502,14 @@ if is_even(number):
     print("the number is even")
 else:
     print("the number is odd")
+
+
+# *** Slicing a string
+
+text = Python programming
+
+substr = text [7:18]
+
+print("Original text:",text)
+
+print("extracted substring:",substr)
