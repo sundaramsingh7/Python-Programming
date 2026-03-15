@@ -529,6 +529,19 @@ c = 7
 # calculate the semi-perimeter
 s = (a + b + c) / 2
 
-# calculate the area
+# calculate the area of triangle
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('The area of the triangle is %0.2f' %area)
+
+
+# To calculate the square root
+# Python Program to calculate the square root
+
+# Note: change this value for a different result
+num = 8 
+
+# To take the input from the user
+#num = float(input('Enter a number: '))
+
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
