@@ -772,3 +772,11 @@ for num in range(lower, upper + 1):
 
    if num == sum:
        print(num)
+
+
+
+
+# Program to find the ASCII value of the given character
+
+c = 'p'
+print("The ASCII value of '" + c + "' is", ord(c))
